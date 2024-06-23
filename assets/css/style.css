@@ -61,5 +61,18 @@ body{
     font-size: 45px;
 }
 
+body{
+    background-color:#003083;
+}
 
 
+/* rules area*/
+.rules-area{
+    text-align: center;
+    
+}
+/* footer */
+footer{
+    background-color:#0098f1;
+    margin: -7px;
+}
