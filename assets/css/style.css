@@ -15,11 +15,13 @@ body{
     border-radius: 8px;
     max-width: 100%;
     max-height: auto;
-    height:50%;
-    width:50%;
+    height:45%;
+    width:45%;
     display:block;
     margin-left: auto;
     margin-right:auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 /* header */
@@ -68,11 +70,32 @@ body{
 
 /* rules area*/
 .rules-area{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    
+    flex-grow: 1;
 }
 /* footer */
 footer{
     background-color:#0098f1;
     margin: -7px;
+   
+}
+
+/* play button */
+
+#play-button{
+    align-self: center;
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #08E8DE;
+    color: #3a3a3a;
+    border-radius: 20%;
+}
+
+#play-button a{
+    text-decoration: none;
+    color:inherit;
 }
