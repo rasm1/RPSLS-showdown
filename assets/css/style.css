@@ -8,6 +8,7 @@ html{
 
 body{
     font-family: "roboto", sans-serif;
+    font-size: 20px;
 }
 
 /* hero img */
@@ -98,4 +99,13 @@ footer{
 #play-button a{
     text-decoration: none;
     color:inherit;
+}
+
+/* origin */
+.origin-text{
+    background: #0098f1;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
 }
