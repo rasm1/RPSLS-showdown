@@ -9,6 +9,8 @@ html{
 body{
     font-family: "roboto", sans-serif;
 }
+
+/* hero img */
 .hero{
     border-radius: 8px;
     max-width: 100%;
@@ -18,4 +20,13 @@ body{
     display:block;
     margin-left: auto;
     margin-right:auto;
+}
+
+/* heading */
+.heading{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #006abc
+
 }
