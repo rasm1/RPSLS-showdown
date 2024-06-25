@@ -96,6 +96,18 @@ footer{
     border-radius: 20%;
 }
 
+.game-option{
+    font-size: 5rem;
+    border-radius: 50%;
+   margin: 0 10px;
+   background-color:#0098f1;
+   cursor: pointer;
+   transition: background-color 0.5 ease;
+    
+}
+.game-option:hover{
+    background-color:azure
+}
 #play-button a{
     text-decoration: none;
     color:inherit;
