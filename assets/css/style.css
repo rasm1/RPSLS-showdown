@@ -66,6 +66,7 @@ body{
 
 body{
     background-color:#003083;
+    align-items: center;
 }
 
 
@@ -94,15 +95,21 @@ footer{
     background-color: #08E8DE;
     color: #3a3a3a;
     border-radius: 20%;
+    align-items: center;
 }
 
+.controls-area h1{
+    text-align: center;
+    padding-bottom: 2%;
+}
 .game-option{
-    font-size: 5rem;
+    font-size: 7rem;
     border-radius: 50%;
    margin: 0 10px;
    background-color:#0098f1;
    cursor: pointer;
-   transition: background-color 0.5 ease;
+   transition: background-color 0.5s ease;
+   margin-left: 10%;
     
 }
 .game-option:hover{
@@ -142,5 +149,11 @@ footer{
     text-align: center;
 
 }
-*/
 
+*/
+.green-text{
+    color: green;
+}
+.red-text{
+    color: red;
+}

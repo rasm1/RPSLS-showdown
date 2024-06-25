@@ -38,7 +38,7 @@
         </div>
     </header>
     <div class="controls-area">
-        <p>Pick your weapon:</p>
+        <h1>Pick your weapon:</h1>
         <button aria-label="Rock"  data-choice="rock" class="game-option">👊</button>
         <button aria-label="Paper"  data-choice="paper" class="game-option">✋</button>
         <button aria-label="Scissors"  data-choice="scissors" class="game-option">✌</button>
@@ -48,6 +48,8 @@
     <div class="results-area">
 
     </div>
+    <div id = playerDisplay>You picked:</div>
+    <div id = computerDisplay>The computer picked:</div>
     <div id="player">
         <p class="score">Score:<span id="playerScore">0</span></p>
         <!--<img id="playerImage" src="assets/images/rspls.png" alt="rock-paper-scissors-lizard-spock">-->
@@ -56,5 +58,6 @@
         <p class="score">computer Score:<span id="computerScore">0</span></p>
        <!-- <img id="computerImage" src="assets/images/rspls.png" alt="rock-paper-scissors-lizard-spock">-->
     </div>
+    <div id="resultDisplay">TIE!</div>
     <script src="assets/js/script.js"></script>
 </body>
