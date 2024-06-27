@@ -120,6 +120,26 @@ footer{
     color:inherit;
 }
 
+#resultDisplay{
+    font-size: 10rem;
+    text-align: center;
+}
+
+.scoreDisplay{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    
+}
+.pickedDisplay{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    font-size:2rem;
+}
 /* origin */
 
 .origin-text{
