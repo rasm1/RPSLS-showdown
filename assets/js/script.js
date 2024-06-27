@@ -19,6 +19,9 @@ for (let button of buttons) {
         runGame(playerChoice);
     });
 }
+/**
+ * runs the game and generates computer choice 
+ */
 
 function runGame(playerChoice) {
     let computerChoice = choices[Math.floor(Math.random() * 5)];
@@ -26,6 +29,9 @@ function runGame(playerChoice) {
 
 }
 
+/**
+ * Checks to see who the winner is and updates the result, also tallies up score and adds color to result
+ */
 function checkWinner(playerChoice, computerChoice) {
     let result = '';
     if (playerChoice === computerChoice) {
@@ -47,17 +53,15 @@ function checkWinner(playerChoice, computerChoice) {
             case 'spock':
                 result = (computerChoice === 'rock' || computerChoice === 'scissors') ? "YOU WIN" : "YOU LOSE"
         }
-        console.log(result);
-
-        console.log(playerChoice);
-        console.log(computerChoice);
 
 
     };
+    /* displays what choice the player and computer make */
     playerDisplay.innerHTML = `you picked: ${playerChoice}`
     computerDisplay.innerHTML = `the computer picked: ${computerChoice}`
     resultDisplay.innerHTML = result;
 
+    /* adds the color to the result and tallies up score */
     resultDisplay.classList.remove('green-text', 'red-text');
     switch (result) {
         case "YOU WIN":
