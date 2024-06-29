@@ -4,7 +4,7 @@
 html{
     min-height: 100%;
     position: relative;
-    color: #1a1818;
+    color: #2b2727;
 }
 
 body{
@@ -154,6 +154,7 @@ footer{
     margin-left: 20%;
     box-shadow: 5px 5px 10px;
     padding-bottom: 2%;
+    margin-top: 4%;
     
 }
 .origin-text h1{
