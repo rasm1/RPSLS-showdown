@@ -4,6 +4,7 @@
 html{
     min-height: 100%;
     position: relative;
+    color: #1a1818;
 }
 
 body{
@@ -66,7 +67,7 @@ body{
 }
 
 body{
-    background-color:#003083;
+    background-color:#1a4faa;
     align-items: center;
 }
 
@@ -97,6 +98,7 @@ footer{
     color: #3a3a3a;
     border-radius: 20%;
     align-items: center;
+    border-bottom: 10px;
 }
 
 .controls-area h1{
@@ -151,6 +153,7 @@ footer{
     width:60%;
     margin-left: 20%;
     box-shadow: 5px 5px 10px;
+    padding-bottom: 2%;
     
 }
 .origin-text h1{

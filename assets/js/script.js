@@ -12,7 +12,6 @@ let computerScoreStandard = 0;
 /**
  * loops through buttons and adds event listener to each
  */
-
 for (let button of buttons) {
     button.addEventListener('click', function () {
         let playerChoice = this.getAttribute("data-choice");
@@ -22,7 +21,6 @@ for (let button of buttons) {
 /**
  * runs the game and generates computer choice 
  */
-
 function runGame(playerChoice) {
     let computerChoice = choices[Math.floor(Math.random() * 5)];
     checkWinner(playerChoice, computerChoice);
@@ -36,7 +34,10 @@ function checkWinner(playerChoice, computerChoice) {
     let result = '';
     if (playerChoice === computerChoice) {
         result = 'YOU TIED';
-    } else {
+        resultDisplay.innerHTML = result;
+        resultDisplay.classList.remove('green-text', 'red-text');
+        return;
+    } 
         switch (playerChoice) {
             case 'rock':
                 result = (computerChoice === 'scissors' || computerChoice === 'lizard') ? 'YOU WIN' : "YOU LOSE"
@@ -55,7 +56,7 @@ function checkWinner(playerChoice, computerChoice) {
         }
 
 
-    };
+    
     /* displays what choice the player and computer make */
     playerDisplay.innerHTML = `you picked: ${playerChoice}`
     computerDisplay.innerHTML = `the computer picked: ${computerChoice}`
@@ -76,6 +77,3 @@ function checkWinner(playerChoice, computerChoice) {
             break;
     }
 }
-/**
- * checks to see who won
- */
