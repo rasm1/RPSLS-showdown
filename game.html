@@ -37,31 +37,30 @@
             </nav>
         </div>
     </header>
-    <div class="controls-area">
-        <h1>Pick your weapon:</h1>
-        <button aria-label="Rock" data-choice="rock" class="game-option">👊</button>
-        <button aria-label="Paper" data-choice="paper" class="game-option">✋</button>
-        <button aria-label="Scissors" data-choice="scissors" class="game-option">✌</button>
-        <button aria-label="Lizard" data-choice="lizard" class="game-option">🦎</button>
-        <button aria-label="Spock" data-choice="spock" class="game-option">🖖</button>
-    </div>
-    <div class="results-area">
-
-    </div>
-    <div class="pickedDisplay">
-        <div id=playerDisplay>You picked:</div>
-        <div id=computerDisplay>The computer picked:</div>
-    </div>
-    <div class=scoreDisplay>
-        <div id="player">
-            <p class="score">your Score:<span id="playerScore">0</span></p>
-            <!--<img id="playerImage" src="assets/images/rspls.png" alt="rock-paper-scissors-lizard-spock">-->
+    <div class="gamePage">
+        <div class="controls-area">
+            <h1>Pick your weapon:</h1>
+            <button aria-label="Rock" data-choice="rock" class="game-option">👊</button>
+            <button aria-label="Paper" data-choice="paper" class="game-option">✋</button>
+            <button aria-label="Scissors" data-choice="scissors" class="game-option">✌</button>
+            <button aria-label="Lizard" data-choice="lizard" class="game-option">🦎</button>
+            <button aria-label="Spock" data-choice="spock" class="game-option">🖖</button>
         </div>
-        <div id="computer">
-            <p class="score">computer Score:<span id="computerScore">0</span></p>
-            <!-- <img id="computerImage" src="assets/images/rspls.png" alt="rock-paper-scissors-lizard-spock">-->
+        <div class="results-area">
+            <div class="pickedDisplay">
+                <div id=playerDisplay>You picked:</div>
+                <div id=computerDisplay>The computer picked:</div>
+            </div>
+            <div class=scoreDisplay>
+                <div id="player">
+                    <p class="score">your Score:<span id="playerScore">0</span></p>
+                </div>
+                <div id="computer">
+                    <p class="score">computer Score:<span id="computerScore">0</span></p>
+                </div>
+            </div>
+            <div id="resultDisplay"></div>
         </div>
     </div>
-    <div id="resultDisplay"></div>
     <script src="assets/js/script.js"></script>
 </body>
