@@ -1,51 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* main */
-html{
+html {
     min-height: 100%;
     position: relative;
     color: #161515;
 }
 
-body{
+body {
     font-family: "roboto", sans-serif;
     font-size: 20px;
+    min-height: 100vh;
 }
 
 /* hero img */
-.hero{
+.hero {
     border-radius: 8px;
     max-width: 100%;
     max-height: auto;
-    height:45%;
-    width:45%;
-    display:block;
+    height: 45%;
+    width: 45%;
+    display: block;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
 /* header */
-.heading{
-    display:flex;
+.heading {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #006abc;
     padding-left: 2%;
-    padding-right:2%;
+    padding-right: 2%;
     margin: -8px;
     box-shadow: 5px 5px 10px;
-    
+
 }
 
-#navigation li{
-   display: inline;
-   padding: 1em;
+#navigation li {
+    display: inline;
+    padding: 1em;
 }
 
 #navigation a {
-    color:inherit;
+    color: inherit;
     text-decoration: none;
 }
 
@@ -57,38 +58,46 @@ body{
     list-style-type: none;
     font-size: 150%;
 }
+
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
 
 
-.heading h1{
+.heading h1 {
     font-size: 45px;
 }
 
-body{
-    background-color:#1a4faa;
+body {
+    background-color: #1a4faa;
     align-items: center;
 }
-
-
+/* pushes footer down to ground but stil creates issues (fix later)
+/*
+.game-area{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+    */
 /* rules area*/
-.rules-area{
+.rules-area {
     display: flex;
     flex-direction: column;
     text-align: center;
-    flex-grow: 1;
+    
 }
+
 /* footer */
-footer{
-    background-color:#0098f1;
+footer {
+    background-color: #0098f1;
     margin: -7px;
-   
+
 }
 
 /* play button */
 
-#play-button{
+#play-button {
     align-self: center;
     margin-top: 20px;
     border-radius: 2px;
@@ -99,89 +108,99 @@ footer{
     border-radius: 20%;
     align-items: center;
     border-bottom: 10px;
-    margin-bottom: 5%;
+   margin-bottom: 2%;
 }
 
-.controls-area h1{
+.controls-area h1 {
     text-align: center;
     padding-bottom: 2%;
 }
-.game-option{
+
+.game-option {
     font-size: 7rem;
     border-radius: 40%;
-   margin: 0 10px;
-   background-color:#0098f1;
-   cursor: pointer;
-   transition: background-color 0.5s ease;
-   margin-left: 9%;
-    
-}
-[data-choice="rock"]{
-    padding-right:0.6%;
-}
-[data-choice="paper"]{
-    padding-left:1%;;
-    padding-right:0.5%;
-}
-[data-choice="scissors"]{
-padding-left: 1%;
-padding-right: 1.3%;
+    margin: 0 10px;
+    background-color: #0098f1;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    margin-left: 9%;
+
 }
 
-.gamePage{
+[data-choice="rock"] {
+    padding-right: 0.6%;
+}
+
+[data-choice="paper"] {
+    padding-left: 1%;
+    padding-right: 0.5%;
+}
+
+[data-choice="scissors"] {
+    padding-left: 1%;
+    padding-right: 1.3%;
+}
+
+.gamePage {
     color: aliceblue;
 }
-.game-option:hover{
-    background-color:azure
-}
-#play-button a{
-    text-decoration: none;
-    color:inherit;
+
+.game-option:hover {
+    background-color: azure
 }
 
-#resultDisplay{
+#play-button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#resultDisplay {
     font-size: 10rem;
     text-align: center;
 }
 
-.scoreDisplay{
+.scoreDisplay {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
     font-size: 2rem;
-    
+
 }
-.pickedDisplay{
-    display:flex;
+
+.pickedDisplay {
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 5%;
-    font-size:2rem;
+    font-size: 2rem;
 }
+
 /* origin */
 
-.origin-text{
+.origin-text {
     background: #0098f1;
     padding-left: 1rem;
     padding-right: 1rem;
-    font-size:120%;
-    width:60%;
+    font-size: 120%;
+    width: 60%;
     margin-left: 20%;
     box-shadow: 5px 5px 10px;
     padding-bottom: 2%;
     margin-top: 4%;
-    
+
 }
-.origin-text h1{
+
+.origin-text h1 {
     text-align: center;
 }
 
 
 
-.green-text{
+.green-text {
     color: green;
 }
-.red-text{
+
+.red-text {
     color: red;
 }
