@@ -89,10 +89,8 @@ function checkWinner(playerChoice, computerChoice) {
     // get the text inside the modal
     var modalText = document.getElementById('modalText');
 
-    // When the user clicks on the button, open the modal
-    btn.onclick = function () {
-
-    }
+    // get the reset button
+    var reset = document.getElementById('resetButton')
 
     // When the user clicks on <span> (x), close the modal
     span.onclick = function () {
@@ -105,12 +103,16 @@ function checkWinner(playerChoice, computerChoice) {
             modal.style.display = "none";
         }
     }
-    if (playerScoreStandard === 15) {
+    if (playerScoreStandard === 5) {
         modal.style.display = "block";
-    } else if (computerScoreStandard === 15){
+    } else if (computerScoreStandard === 5){
         modalText.textContent ="The computer was one step ahead of you! Try again?";
-        modal.style.display = "block";
-      
-        
+        modal.style.display = "block"; 
+    }
+
+    reset.onclick = function(){
+        playerScoreStandard = 0;
+        computerScoreStandard = 0;
+        modal.style.display = "none";
     }
 }
