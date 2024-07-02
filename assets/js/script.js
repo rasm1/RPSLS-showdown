@@ -24,7 +24,6 @@ for (let button of buttons) {
 function runGame(playerChoice) {
     let computerChoice = choices[Math.floor(Math.random() * 5)];
     checkWinner(playerChoice, computerChoice);
-
 }
 
 /**
@@ -103,10 +102,10 @@ function checkWinner(playerChoice, computerChoice) {
             modal.style.display = "none";
         }
     }
-    if (playerScoreStandard === 15) {
+    if (playerScoreStandard === 10) {
         modal.style.display = "block";
         modalText.textContent = "Congratulations! you have beaten the computer and are a true rpsls master! Try again?";
-    } else if (computerScoreStandard === 15) {
+    } else if (computerScoreStandard === 10) {
         modalText.textContent = "The computer was one step ahead of you! Try again?";
         modal.style.display = "block";
     }
@@ -117,6 +116,5 @@ function checkWinner(playerChoice, computerChoice) {
         playerScoreStandard = 0;
         computerScoreStandard = 0;
         modal.style.display = "none";
-
     }
 }
