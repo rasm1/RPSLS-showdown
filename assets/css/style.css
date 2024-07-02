@@ -72,14 +72,14 @@ body {
     background-color: #1a4faa;
     align-items: center;
 }
-/* pushes footer down to ground but stil creates issues (fix later)
-/*
+/* pushes footer down to ground but stil creates issues (fix later) */
+
 .game-area{
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 57vh;
 }
-    */
+    
 /* rules area*/
 .rules-area {
     display: flex;
