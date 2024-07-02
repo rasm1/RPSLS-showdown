@@ -105,14 +105,18 @@ function checkWinner(playerChoice, computerChoice) {
     }
     if (playerScoreStandard === 5) {
         modal.style.display = "block";
-    } else if (computerScoreStandard === 5){
-        modalText.textContent ="The computer was one step ahead of you! Try again?";
-        modal.style.display = "block"; 
+        modalText.textContent = "Congratulations! you have beaten the computer and are a true rpsls master! Try again?";
+    } else if (computerScoreStandard === 5) {
+        modalText.textContent = "The computer was one step ahead of you! Try again?";
+        modal.style.display = "block";
     }
 
-    reset.onclick = function(){
+    reset.onclick = function () {
+        playerScore.textContent = 0;
+        computerScore.textContent = 0;
         playerScoreStandard = 0;
         computerScoreStandard = 0;
         modal.style.display = "none";
+
     }
 }
