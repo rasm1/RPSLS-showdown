@@ -103,10 +103,10 @@ function checkWinner(playerChoice, computerChoice) {
             modal.style.display = "none";
         }
     }
-    if (playerScoreStandard === 5) {
+    if (playerScoreStandard === 15) {
         modal.style.display = "block";
         modalText.textContent = "Congratulations! you have beaten the computer and are a true rpsls master! Try again?";
-    } else if (computerScoreStandard === 5) {
+    } else if (computerScoreStandard === 15) {
         modalText.textContent = "The computer was one step ahead of you! Try again?";
         modal.style.display = "block";
     }
