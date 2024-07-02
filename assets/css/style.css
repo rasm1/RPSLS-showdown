@@ -296,11 +296,17 @@ footer {
         margin-bottom: 10px;
     }
 
+    
+
+}
+@media screen and (max-width: 992px){
     .controls-area {
         display: flex;
         flex-flow: column;
         margin-left: 35%;
         margin-right: 35%;
     }
-
+    .game-option{
+        margin-bottom: 10px;
+    }
 }
