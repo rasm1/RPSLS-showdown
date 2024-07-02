@@ -18,13 +18,13 @@ body {
     border-radius: 8px;
     max-width: 100%;
     max-height: auto;
-    height: 45%;
-    width: 45%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
     margin-bottom: 5%;
+    min-height: 50%;
+    min-width: 50%;
 }
 
 /* header */
@@ -77,7 +77,7 @@ body {
 .game-area{
     display: flex;
     flex-direction: column;
-    min-height: 57vh;
+    min-height: 60vh;
 }
     
 /* rules area*/
