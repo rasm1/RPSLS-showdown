@@ -273,16 +273,12 @@ footer {
     #navigation {
         font-size: 1rem;
     }
+
     .game-option {
         font-size: 2em;
     }
-    .controls-area{
-        display: flex;
-    flex-flow: column;
-    margin-left: 30%;
-    margin-right: 30%;
-    }
-    
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -296,8 +292,15 @@ footer {
     }
 
     .game-option {
-        font-size: 4em;
+        font-size: 3em;
+        margin-bottom: 10px;
+    }
 
+    .controls-area {
+        display: flex;
+        flex-flow: column;
+        margin-left: 35%;
+        margin-right: 35%;
     }
 
 }
