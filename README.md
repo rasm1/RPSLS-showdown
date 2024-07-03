@@ -8,9 +8,9 @@ The goal of RPSLS-showdown is to entertain the user and keep them engaged with t
 
 
 
-![Am I Responsive](assets/images/mockup-image.png)
+![Am I Responsive](assets/images/amiresponsive-rpsls-showdown.png)
 
-[View Leonardo's Legacy project here](https://rasm1.github.io/Leonardo-s-Legacy/index.html)
+[View rpsls-showdown project here](https://rasm1.github.io/RPSLS-showdown/index.html)
 
 ## User Experience (UX)
 
