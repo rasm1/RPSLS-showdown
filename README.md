@@ -1,15 +1,11 @@
 # RPSLS-showdown
 
-Leonardo's Legacy is a biography website to designed commemorate the life and works of Leonardo da Vinci. 
+RPSLS-showdown is an in browser rock paper scissors like game with 5 options instead of the usual 3.
 
-The website mainly targets users who are already aware of who da Vinci is and want to learn more about him.
+This website targets users who are looking for a fun quick game of rock paper scissors lizard spock.
 
-The goal of Leonardo's Legacy is to inform, impress and inspire the user by showing off various paintings and inventionsmade by Leonardo da Vinci. T
-he site also provides some basic knowledge about who da Vinci is and what his early years looked like.
+The goal of RPSLS-showdown is to entertain the user and keep them engaged with the website. The website also contains information as to the origin of rock paper scissors lizard spock and of course, explains the rules of the game.
 
-The website also contains a form in which users can submit their email to be redirected to other websites where they can learnabout the legacy of other great people.
-
- Links to our social media is included in the footer of the page.
 
 
 ![Am I Responsive](assets/images/mockup-image.png)

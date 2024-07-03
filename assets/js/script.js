@@ -39,26 +39,26 @@ function checkWinner(playerChoice, computerChoice) {
     }
     switch (playerChoice) {
         case 'rock':
-            result = (computerChoice === 'scissors' || computerChoice === 'lizard') ? 'YOU WIN' : "YOU LOSE"
+            result = (computerChoice === 'scissors' || computerChoice === 'lizard') ? 'YOU WIN' : "YOU LOSE";
             break;
         case 'scissors':
-            result = (computerChoice === 'lizard' || computerChoice === 'paper') ? "YOU WIN" : "YOU LOSE"
+            result = (computerChoice === 'lizard' || computerChoice === 'paper') ? "YOU WIN" : "YOU LOSE";
             break;
         case 'paper':
-            result = (computerChoice === 'rock' || computerChoice === 'spock') ? "YOU WIN" : "YOU LOSE"
+            result = (computerChoice === 'rock' || computerChoice === 'spock') ? "YOU WIN" : "YOU LOSE";
             break;
         case 'lizard':
-            result = (computerChoice === 'paper' || computerChoice === 'spock') ? "YOU WIN" : "YOU LOSE"
+            result = (computerChoice === 'paper' || computerChoice === 'spock') ? "YOU WIN" : "YOU LOSE";
             break;
         case 'spock':
-            result = (computerChoice === 'rock' || computerChoice === 'scissors') ? "YOU WIN" : "YOU LOSE"
+            result = (computerChoice === 'rock' || computerChoice === 'scissors') ? "YOU WIN" : "YOU LOSE";
     }
 
 
 
     /* displays what choice the player and computer make */
-    playerDisplay.innerHTML = `you picked: ${playerChoice}`
-    computerDisplay.innerHTML = `the computer picked: ${computerChoice}`
+    playerDisplay.innerHTML = `you picked: ${playerChoice}`;
+    computerDisplay.innerHTML = `the computer picked: ${computerChoice}`;
     resultDisplay.innerHTML = result;
 
     /* adds the color to the result and tallies up score */
@@ -79,8 +79,7 @@ function checkWinner(playerChoice, computerChoice) {
     // Get the modal
     var modal = document.getElementById("myModal");
 
-    // Get the button that opens the modal
-    var btn = document.getElementById("myBtn");
+    
 
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
@@ -89,19 +88,19 @@ function checkWinner(playerChoice, computerChoice) {
     var modalText = document.getElementById('modalText');
 
     // get the reset button
-    var reset = document.getElementById('resetButton')
+    var reset = document.getElementById('resetButton');
 
     // When the user clicks on <span> (x), close the modal
     span.onclick = function () {
         modal.style.display = "none";
-    }
+    };
 
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function (event) {
         if (event.target == modal) {
             modal.style.display = "none";
         }
-    }
+    };
     if (playerScoreStandard === 10) {
         modal.style.display = "block";
         modalText.textContent = "Congratulations! you have beaten the computer and are a true rpsls master! Try again?";
@@ -116,5 +115,5 @@ function checkWinner(playerChoice, computerChoice) {
         playerScoreStandard = 0;
         computerScoreStandard = 0;
         modal.style.display = "none";
-    }
+    };
 }
