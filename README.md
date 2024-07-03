@@ -1,4 +1,4 @@
-# Leonardo's Legacy
+# RPSLS-showdown
 
 Leonardo's Legacy is a biography website to designed commemorate the life and works of Leonardo da Vinci. 
 
