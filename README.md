@@ -14,32 +14,30 @@ The goal of RPSLS-showdown is to entertain the user and keep them engaged with t
 
 ## User Experience (UX)
 
-This website is meant to attract people who are interested in the life and works of Leonardo da Vinci and want to learn more about him.
+This website is meant to attract people who are looking for a fun interactive game of rock paper scissors lizard spock.
 
-The information is structured in such a way that it can be clearly understood and followed.
+The information is structured in such a way that the game can easily be navigated to and the rules are eplained first.
 
 
 ### User Stories
 
 #### First-time visitor goals
 <ul>
-			<li>Understand the main purpose of the site and to learn more about Leonardo da Vinci and his creations</li>
-			<li> Easily navigate through the site to find what the user is looking for.</li>
-			<li>Find the signup form and fill it out.</li>
+			<li>Understand the main purpose of the site and to easily navigate to the game.</li>
+			<li>Clearly find out what the rules of the game are.</li>
+			<li>To find out what the origin of the game is.</li>
 </ul>
 
 #### Returning visitor goals
 <ul>		
-			<li>Find out more information about da Vinci.</li>
-			<li>Review the site's gallery</li>
-			<li>To be redirected to sites about other great people</li>
+			<li>Be engaged with the game itself</li>
+			<li>To clearly understand the origin of the game.</li>
 </ul>
 
 #### frequent user Goals
 <ul>		
-			<li>To be redirected to sites about other great people</li>
-			<li>Review the gallery for new photos</li>
-			<li>Find out more information about da Vinci</li>
+			<li>To stay engaged with the game.</li>
+			<li>To clearly understand the origin of the game.</li>
 </ul>
 
 ## features
