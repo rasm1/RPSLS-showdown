@@ -155,39 +155,7 @@ HTML -  no errors were returned when passing the site through the official [The 
 CSS - no errors were returned when passing the site through the official [The W3C CSS validator (jigsaw)](https://jigsaw.w3.org/css-validator/)
 
 JS - no errors were returned when passing the site through the official [The JSHint Javascript validator](https://jshint.com)
-[The following metrics were returned](assets/images/metrics.png)
-
-### Validation results
-<details>
-<summary>index.html
-</summary>
-
-![Home Page validation result](assets/images/index-html-validator.png)
-</details>
-<details>
-<summary>gallery.html
-</summary>
-
-![Gallery validation result](assets/images/gallery-html-validator.png)
-</details>
-<details>
-<summary>sign-up.html
-</summary>
-
-![Sign Up page validation result](assets/images/signup-html-validator.png)
-</details>
-<details>
-<summary>thank-you.htmml
-</summary>
-
-![Application Received validation result](/assets/images/thank-you-html-validator.png)
-</details>
-<details>
-<summary>style.css
-</summary>
-
-![CSS validation result](/assets/images/css-validator.png)
-</details>
+![The following metrics were returned](assets/images/metrics.png)
 
 ### manual testing
 <ul>
@@ -203,14 +171,15 @@ JS - no errors were returned when passing the site through the official [The JSH
 
 #### Solved Bugs
 <ul>
-<li>When project the project was deployed to github pages the images would not load due to using absolute file paths</li>
-<li>external links to social media pages did not work on gallery, signup and thank-you page due to incorrect placement of html tags</li>
-<li>favicon and images folder were placed under the css folder, they are now placed inside of the assets folder</li>
+<li>When project the project was in development, none of the javascript would be applies to the pages</li>
+<li>This was fixes by including the <script></script> tag at the bottom of the body.</li>
+<li>When the win condition was met, none of the scores would be reset when clicking the restart button</li>
+<li>This was resolved by directly resetting the variable responsible for displaying the scores instead of resetting the score incrementer</li>
 </ul>
 
 #### Unsolved bugs
 <ul>
-<li>Gallery image 3 in paintings stretches out too much in screen width 810px - 958px and 1189px - 1272px</li>
+<li></li>
 </ul>
 
 ## Accesability
