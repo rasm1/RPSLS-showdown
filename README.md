@@ -114,7 +114,7 @@ The information is structured in such a way that the game can easily be navigate
 
  ### typography
 <ul>
-		<li>Sedan & Great vibes are the primary fonts used in the website with sans-serif as fallback font incase the prefered font will not import.</li>
+		<li>The primary font used on this website is roboto, sans-serif as fallback</li>
 </ul>
 
 ### wireframes
@@ -128,6 +128,7 @@ The information is structured in such a way that the game can easily be navigate
 <ul>
 	<li>HTML5</li>
 	<li>CSS3</li>
+	<li>Javascript</li>
 </ul>
 
 ## Frameworks, libraries & programs used
@@ -142,8 +143,6 @@ The information is structured in such a way that the game can easily be navigate
     import main font of the website
 	<li>font-awesome</li>
 	import (fav)icons to the website
-	<li>chatgpt</li>
-	to generate text content in the homepage 
 	<li>amiresponsive</li>
 	Mockup picture for the README file
 </ul>
@@ -153,7 +152,10 @@ The information is structured in such a way that the game can easily be navigate
 
 HTML -  no errors were returned when passing the site through the official [The W3C HTML validator](https://validator.w3.org) 
 
-CSS - No errors were returned when passing the site through the official [The W3C CSS validator (jigsaw)](https://jigsaw.w3.org/css-validator/)
+CSS - no errors were returned when passing the site through the official [The W3C CSS validator (jigsaw)](https://jigsaw.w3.org/css-validator/)
+
+JS - no errors were returned when passing the site through the official [The JSHint Javascript validator](https://jshint.com)
+[The following metrics were returned](assets/images/metrics.png)
 
 ### Validation results
 <details>
