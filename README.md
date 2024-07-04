@@ -211,25 +211,19 @@ JS - no errors were returned when passing the site through the official [The JSH
 <summary>Home Page
 </summary>
 
-![Home Page lighthouse report](assets/images/lh-index-desktop.png)
+![Home Page lighthouse report](assets/images/index-desktop.png)
 </details>
 <details>
-<summary>Gallery
+<summary>Game page
 </summary>
 
-![Gallery lighthouse report](assets/images/lh-gallery-desktop.png)
+![Game page lighthouse report](assets/images/game-desktop.png)
 </details>
 <details>
 <summary>Sign Up
 </summary>
 
-![Sign Up Page lighthouse report](assets/images/lh-signup-desktop.png)
-</details>
-<details>
-<summary>thank-you
-</summary>
-
-![Application received lighthouse report](assets/images/lh-thank-you-desktop.png)
+![Origin Page lighthouse report](assets/images/origin-desktop.png)
 </details>
 	
 ## Deployment and local development
