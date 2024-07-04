@@ -43,10 +43,10 @@ The information is structured in such a way that the game can easily be navigate
 ## features
 
 <ul>   
-	<li>This website targets people who want to learn more about Leonardo da Vinci.</li>
-	<li>This can be done by reading the information provided on the homepage and browsing through the gallery.</li>
-	 <li>If users want to learn more about other great people they can navigate to the signup form through the navigation bar in the header
-	 to sign up for more information about other great people. </li>
+	 <li>The website contains a navigation bar to easily navigate through the diffrent pages</li>
+	 <li>An image displaying the rules of the game along with written text. </li>
+	 <li>A game page which leads to the game itself with buttons that implicitly show what option they are for.</li>
+	 <li>A page dedicated to explaining the origin of the game along with a link to visually show where it was popularized.</li>
 	 <li>Responsive on all device sizes.</li>
 </ul>
 
@@ -54,15 +54,15 @@ The information is structured in such a way that the game can easily be navigate
 
 #### Navigation Bar
 <ul>   
-	<li>It is featured and fixed on all three pages and on the thank-you page (seen once the form has been filled in)</li>
-	<li>Includes links to the logo, home page, gallery and sign up page and is identical in each page to allow for easy navigation.</li>
+	<li>It is featured and fixed on all three pages.</li>
+	<li>Includes links to the home page, game page and origins page and is identical in each page to allow for easy navigation.</li>
 	<li>This navigation bar will allow the user to easily navigate from page to page across all devices without having to use the 'back button' to go to the previous page.</li>
-	<li>To optimize screen usage, on smaller screens the navigation bar collapses into a dropdown menu which can be clicked to navigate to the other pages.</li>	
+	<li>To optimize screen usage, on smaller screens the navigation bar collapses into a smaller version retaining it's ease of use.</li>	
 </ul>
 
-![navigation](/assets/images/navigation-bar.png)
+![navigation](assets/images/navigation.png)
 
-![dropdown](assets/images/dropdown.png)
+
 
 #### Landing Page Image  
 <ul>
