@@ -66,79 +66,42 @@ The information is structured in such a way that the game can easily be navigate
 
 #### Landing Page Image  
 <ul>
-		<li>The landing page includes a portrait with text overlay to allow the user to immediatly and clearly see
-		what this website is about and what they can expect.</li>
+		<li>The landing page includes an image which shows the rules of how to game works.</li>
+		<li>It is an intuitive way to show the rules of the game in a visual format</li>
  </ul>
 
-![hero-image](assets/images/landing-page-image.png)
+![landing-image](assets/images/rspls.png)
 
-#### Introduction Section
+#### Rules and play button Section
 <ul>
-		<li>This section is meant to introduce da Vinci and tell the users about what who he is, what he is known for. And what makes him stand out</li>
-		<li>This section is valuable because it introduces the user to the person who the biography is about. Furthermore it gets the user interested in actually learning more about him</li>
+		<li>This section summarises the rules of the game in written format</li>
+		<li>It is valuable to have the rules of the game written out in a concise way along with the visual explenation</li>
+		</li>Underneath the rules you can find a let's play button which prompts the user to click on it to be redirected to the game page</li>
+		<li>The play button is a fun and interesting way to prompt the user to start playing the game</li>
 </ul>
 
-![introduction-section](assets/images/introduction.png)
+![rules-section](assets/images/rules.png)
+![play-button](assets/images/play-button.png)
 
-#### Early Life Section
+#### Game page
 <ul>
-		<li>This section is meant to inform the user about the early life of leonardo da vinci. </li>
-		<li>The user learns what the birthplace of da Vinci is and what his formative years looked like. </li>
-        <li>The user also learns what competencies da Vinci posessed from an early age which aided him greatly in defining who he would later become</li>
+		<li>This page is where the rock paper scissors lizard spock game can be played. </li>
+		<li>The user can pick from 5 options which will be put up against a randomized choice by the computer </li>
+        <li>The user will see what they picked, what the computer picked, if they won and what their score is compared to the computer</li>
+		<li>The game is won or lost once one of the 2 participants reaches 10 wins</li>
 </ul>
 
-![early-life-section](assets/images/early-life.png)
+![game-options](assets/images/game-options.png)
+![score-section](assets/images/score.png)
+![win-condition](assets/images/win-condition.png)
 
-#### Noteworthy Creations Section
+#### origin page
 <ul>
-	<li>In this section the user will learn what da Vinci's most noteworthy creations are </li>
-    <li>The user will learn more about what these creations entailed and how they were made</li>
+	<li>On this page the user learns who made the game and who popularized it. </li>
+    <li>The page also contains a link to a youtube video that shows how the game was popularized.</li>
 </ul>		
 
-![noteworthy-creations-section](assets/images/noteworthy-creations.png)
-
-#### Footer
-<ul>
-		<li>The footer includes links to the relevant social media platforms for Leonardo's Legacy. These links will open in a new tab to allow fgor easy navigation for the user</li>
-		<li>The footer is valuable to the user because it provides a way for the user to stay connected via social media.</li>
-</ul>	
-
-![footer](assets/images/footer.png)
-
-#### Gallery
-<ul>
-		<li>The gallery will provide the user with supporting images to see more of the creations da Vinci has made.</li>
-		<li>This section is valuable to the user as it easily showcases the creations da vinci has made.</li>
-</ul>
-
-![gallery-paintings](assets/images/gallery-paintings.png)
-
-![gallery-inventions](assets/images/gallery-inventions.png)
-
-#### Sign Up page
-<ul>
-		<li>This page will allow the user to get signed up for additional information about great people's legacies.</li>
-		<li>The user will be able to specify what person they are interested in or if they are interested at all. </li>
-       <li> The user will be asked to submit
-		their full name and email address.</li>
-</ul>
-
-![signup-page](assets/images/signup-page.png)
-
-#### Thank You Page
-<ul>
-		-This page is valuable to the user because it confirms to the user that they have been signed up.
-</ul>		
-
-![thank-ypu-page](assets/images/thank-you-page.png)
-
-### Features Left to Implement
-<ul>
-	<li>additional images added to the gallery with explanation about what the image is.</li>
-	<li>another section about da Vinci's last years alive.</li>
-	</li>In the thank you page, there would be a clickable link that would redirect the user to a legacy page about diffrent great people (example: Albert Einstein)</li>
-</ul>	
-
+![origin-page](assets/images/origin.png)
 
 ## Design
 
