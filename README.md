@@ -248,7 +248,7 @@ By forking the repository, we make a copy of the original repository on our GitH
 
 ### Local Clone
 
-1. Log in to GitHub and locate [GitHub Repository Leonardo-s-Legacy](https://github.com/rasm1/Leonardo-s-Legacy)
+1. Log in to GitHub and locate [GitHub Repository RPSLS-showdown](github.com/rasm1/RPSLS-showdown)
 2. Under the repository name click "Clone or download"
 3. Click on the code button, select clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open Git Bash
