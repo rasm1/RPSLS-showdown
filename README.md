@@ -188,28 +188,22 @@ JS - no errors were returned when passing the site through the official [The JSH
 
 #### Mobile analysis
 <details>
-<summary>Home Page
+<summary>Home page
 </summary>
 
-![Home Page lighthouse report](assets/images/lh-index-mobile.png)
+![Home page lighthouse report](assets/images/index-mobile.png)
 </details>
 <details>
-<summary>Gallery
+<summary>Game page
 </summary>
 
-![Gallery lighthouse report](assets/images/lh-gallery-mobile.png)
+![Game page lighthouse report](assets/images/game-mobile.png)
 </details>
 <details>
-<summary>Sign Up
+<summary>Origin page
 </summary>
 
-![Sign Up Page lighthouse report](assets/images/lh-signup-mobile.png)
-</details>
-<details>
-<summary>thank-you
-</summary>
-
-![Application received lighthouse report](assets/images/lh-thank-you-mobile.png)
+![Origin page lighthouse report](assets/images/origin-mobile.png)
 </details>
 
 #### Desktop analysis
