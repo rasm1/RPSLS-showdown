@@ -34,13 +34,13 @@ The information is structured in such a way that the game can easily be navigate
 			<li>To clearly understand the origin of the game.</li>
 </ul>
 
-#### frequent user Goals
+#### Frequent user Goals
 <ul>		
 			<li>To stay engaged with the game.</li>
 			<li>To clearly understand the origin of the game.</li>
 </ul>
 
-## features
+## Features
 
 <ul>   
 	 <li>The website contains a navigation bar to easily navigate through the diffrent pages</li>
@@ -95,7 +95,7 @@ The information is structured in such a way that the game can easily be navigate
 ![score-section](assets/images/score.png)
 ![win-condition](assets/images/win-condition.png)
 
-#### origin page
+#### Origin page
 <ul>
 	<li>On this page the user learns who made the game and who popularized it. </li>
     <li>The page also contains a link to a youtube video that shows how the game was popularized.</li>
@@ -112,12 +112,12 @@ The information is structured in such a way that the game can easily be navigate
 
  ![color-palette](assets/images/color-palette.png)
 
- ### typography
+ ### Typography
 <ul>
 		<li>The primary font used on this website is roboto, sans-serif as fallback</li>
 </ul>
 
-### wireframes
+### Wireframes
 <ul>
     <li>Only pen & paper was used in the design of this project</li>
 </ul>
@@ -148,7 +148,7 @@ The information is structured in such a way that the game can easily be navigate
 </ul>
 
 
-## Testing:
+## Testing
 
 HTML -  no errors were returned when passing the site through the official [The W3C HTML validator](https://validator.w3.org) 
 
@@ -157,9 +157,11 @@ CSS - no errors were returned when passing the site through the official [The W3
 JS - no errors were returned when passing the site through the official [The JSHint Javascript validator](https://jshint.com)
 ![The following metrics were returned](assets/images/metrics.png)
 
-### manual testing
+### Manual testing
 <ul>
 <li>The website has been tested on Opera browsers, Microsoft Edge and Google Chrome</li>
+<li>Clicked on each button to see if they work correctly</li>
+<li>clicking on each button to see if they work, expected result: button displayed
 <li>The website has been viewed on a desktop computer, laptop and the Iphone 12 pro mobile phone</li>
 <li>Testing has been done to ensure that links internally & externally work as intended</li>
 <li>Family and friends have been asked to review the website in order to assure that user experience is satisfactory</li>
@@ -171,7 +173,7 @@ JS - no errors were returned when passing the site through the official [The JSH
 
 #### Solved Bugs
 <ul>
-<li>When project the project was in development, none of the javascript would be applies to the pages</li>
+<li>When the project was in development, none of the javascript would be applies to the pages</li>
 <li>This was fixes by including the <script></script> tag at the bottom of the body.</li>
 <li>When the win condition was met, none of the scores would be reset when clicking the restart button</li>
 <li>This was resolved by directly resetting the variable responsible for displaying the scores instead of resetting the score incrementer</li>
@@ -179,7 +181,7 @@ JS - no errors were returned when passing the site through the official [The JSH
 
 #### Unsolved bugs
 <ul>
-<li></li>
+<li>There are no known issues at the time of submitting this project.</li>
 </ul>
 
 ## Accesability
