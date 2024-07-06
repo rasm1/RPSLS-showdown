@@ -90,17 +90,9 @@ function checkWinner(playerChoice, computerChoice) {
     // get the reset button
     var reset = document.getElementById('resetButton');
 
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function () {
-        modal.style.display = "none";
-    };
+   
 
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function (event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    };
+    
     if (playerScoreStandard === 10) {
         modal.style.display = "block";
         modalText.textContent = "Congratulations! you have beaten the computer and are a true rpsls master! Try again?";

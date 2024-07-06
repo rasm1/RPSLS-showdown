@@ -72,7 +72,6 @@ body {
     align-items: center;
 }
 
-/* pushes footer down to ground but stil creates issues (fix later) */
 
 .game-area {
     display: flex;
@@ -111,7 +110,20 @@ footer {
     margin-bottom: 2%;
 }
 
-.controls-area h1 {
+#collumn1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#collumn2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gamePage h1 {
     text-align: center;
     padding-bottom: 2%;
 }
@@ -223,27 +235,17 @@ footer {
 .modal-content {
     background-color: #fefefe;
     margin: 15% auto;
-    /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
-    /* Could be more or less, depending on screen size */
+    width: 70%;
+    height: 19%;
 }
 
 /* The Close Button */
 .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+    display: none;
 }
 
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
 
 #myBtn {
     display: none;
@@ -253,7 +255,21 @@ footer {
     text-align: center;
 }
 
-
+#resetButton {
+    align-self: center;
+    margin-top: 20px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #0098f1;
+    background-color: #08E8DE;
+    color: #3a3a3a;
+    border-radius: 20%;
+    align-items: center;
+    border-bottom: 10px;
+    margin-bottom: 2%;
+    margin-left: 39%;
+    cursor: pointer;
+}
 
 .green-text {
     color: green;
@@ -271,7 +287,8 @@ footer {
     #navigation {
         font-size: 1rem;
     }
-    #navigation li{
+
+    #navigation li {
         padding: 0.2rem;
     }
 
@@ -297,17 +314,43 @@ footer {
         margin-bottom: 10px;
     }
 
-    
+    .origin-text {
+        background: #0098f1;
+        padding-left: 13%;
+        padding-right: 15%;
+        font-size: 120%;
+        width: 60%;
+        margin-left: 6%;
+        box-shadow: 5px 5px 10px;
+        padding-bottom: 2%;
+        margin-top: 4%;
+    }
+
+    #resetButton {
+        margin-left: 29%;
+    }
+
+    .modal-content {
+        height: 23%;
+    }
 
 }
-@media screen and (max-width: 992px){
+
+@media screen and (min-width: 992px) {
+    .controls-area {
+        margin-left: -100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
     .controls-area {
         display: flex;
         flex-flow: column;
-        margin-left: 35%;
+        margin-left: 26%;
         margin-right: 35%;
     }
-    .game-option{
+
+    .game-option {
         margin-bottom: 10px;
     }
 }
