@@ -151,10 +151,13 @@ The information is structured in such a way that the game can easily be navigate
 ## Testing
 
 HTML -  no errors were returned when passing the site through the official [The W3C HTML validator](https://validator.w3.org) 
+
 ![html validation results](assets/images/html-validator.png)
 CSS - no errors were returned when passing the site through the official [The W3C CSS validator (jigsaw)](https://jigsaw.w3.org/css-validator/)
+
 ![css validation results](assets/images/css-validator.png)
 JS - no errors were returned when passing the site through the official [The JSHint Javascript validator](https://jshint.com)
+
 ![The following metrics were returned](assets/images/metrics2.png)
 
 ### Manual testing
@@ -173,11 +176,10 @@ JS - no errors were returned when passing the site through the official [The JSH
 ### Bugs
 
 #### Solved Bugs
-<ul>
-<li>When the project was in development, none of the javascript would be applies to the pages</li>
-<li>This was fixes by including the <script></script> tag at the bottom of the body.</li>
-<li>When the win condition was met, none of the scores would be reset when clicking the restart button</li>
-<li>This was resolved by directly resetting the variable responsible for displaying the scores instead of resetting the score incrementer</li>
+The bug | expected behaviour | the fix
+<ul>	
+<li>Javascript was not applied to pages | javascript should be applied to pages | link to the javascript file included in bottom of html</li>
+<li>Scores would not reset after meeting win condition | Scores should reset when meeting win condition | resolved by directly resetting the score value instead of score incrementer</li>
 </ul>
 
 #### Unsolved bugs
