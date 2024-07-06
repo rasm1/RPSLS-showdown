@@ -161,7 +161,7 @@ JS - no errors were returned when passing the site through the official [The JSH
 <ul>
 <li>The website has been tested on Opera browsers, Microsoft Edge and Google Chrome</li>
 <li>Clicked on each button to see if they work correctly</li>
-<li>clicking on each button to see if they work, expected result: button displayed
+<li>clicking on each button to see if they work, expected result:
 <li>The website has been viewed on a desktop computer, laptop and the Iphone 12 pro mobile phone</li>
 <li>Testing has been done to ensure that links internally & externally work as intended</li>
 <li>Family and friends have been asked to review the website in order to assure that user experience is satisfactory</li>
