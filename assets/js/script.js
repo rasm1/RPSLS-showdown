@@ -75,8 +75,8 @@ function checkWinner(playerChoice, computerChoice) {
             computerScore.textContent = computerScoreStandard;
             break;
     }
+   
     /* modal */
-    // Get the modal
     var modal = document.getElementById("myModal");
 
     
@@ -92,7 +92,7 @@ function checkWinner(playerChoice, computerChoice) {
 
    
 
-    
+    /* win condition */
     if (playerScoreStandard === 10) {
         modal.style.display = "block";
         modalText.textContent = "Congratulations! you have beaten the computer and are a true rpsls master! Try again?";
@@ -101,6 +101,7 @@ function checkWinner(playerChoice, computerChoice) {
         modal.style.display = "block";
     }
 
+    /* reset button*/
     reset.onclick = function () {
         playerScore.textContent = 0;
         computerScore.textContent = 0;
