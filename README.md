@@ -91,7 +91,7 @@ The information is structured in such a way that the game can easily be navigate
 		<li>The game is won or lost once one of the 2 participants reaches 10 wins</li>
 </ul>
 
-![game-options](assets/images/game-options.png)
+![game-options](assets/images/game-options2.png)
 ![score-section](assets/images/score.png)
 ![win-condition](assets/images/win-condition.png)
 
@@ -151,17 +151,18 @@ The information is structured in such a way that the game can easily be navigate
 ## Testing
 
 HTML -  no errors were returned when passing the site through the official [The W3C HTML validator](https://validator.w3.org) 
-
+![html validation results](assets/images/html-validator.png)
 CSS - no errors were returned when passing the site through the official [The W3C CSS validator (jigsaw)](https://jigsaw.w3.org/css-validator/)
-
+![css validation results](assets/images/css-validator.png)
 JS - no errors were returned when passing the site through the official [The JSHint Javascript validator](https://jshint.com)
-![The following metrics were returned](assets/images/metrics.png)
+![The following metrics were returned](assets/images/metrics2.png)
 
 ### Manual testing
 <ul>
 <li>The website has been tested on Opera browsers, Microsoft Edge and Google Chrome</li>
-<li>Clicked on each button to see if they work correctly</li>
-<li>clicking on each button to see if they work, expected result:
+<li>Clicked on each game option to see if they work correctly and are displayed as the picked choice, worked correctly and displayed</li>
+<li>clicked on let's play button to see if it redirects to the correct page, it redirects to the correct page</li>
+<li>tested to see if modal win condition pops up at the correct score count (10), modal pops up at correct score count (10)</li>
 <li>The website has been viewed on a desktop computer, laptop and the Iphone 12 pro mobile phone</li>
 <li>Testing has been done to ensure that links internally & externally work as intended</li>
 <li>Family and friends have been asked to review the website in order to assure that user experience is satisfactory</li>
