@@ -278,7 +278,14 @@ footer {
 }
 
 /* media querry's*/
+@media screen and (max-width: 280px){
+   
+}
+
 @media screen and (max-width: 480px) {
+    #resultDisplay{
+        font-size: 5rem;
+    }
     .heading h1 {
         font-size: 1.5rem;
     }
@@ -293,6 +300,9 @@ footer {
 
     .game-option {
         font-size: 2em;
+    }
+    #collumn1{
+       
     }
 
 
