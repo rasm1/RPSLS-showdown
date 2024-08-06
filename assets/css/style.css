@@ -284,7 +284,18 @@ footer {
 
 /* media querry's*/
 @media screen and (max-width: 280px){
-   
+   #playerDisplay{
+    font-size: 1rem;
+   }
+   #computerDisplay{
+    font-size: 1rem;
+   }
+   #player{
+    font-size: 1rem;
+   }
+   #computer{
+    font-size: 1rem;
+   }
 }
 
 @media screen and (max-width: 480px) {
